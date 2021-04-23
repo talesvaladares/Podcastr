@@ -80,7 +80,7 @@ export function PlayerContextProvider({children} : PlayerContextProviderProps) {
 
     if(isShuffling){
       const nextRandomEpisodeIndex = Math.floor(Math.random() * episodeList.length);
-      setCurrentEpisodeIndex(nextEpisodeIndex);
+      setCurrentEpisodeIndex(nextRandomEpisodeIndex);
       return ;
     }
 
